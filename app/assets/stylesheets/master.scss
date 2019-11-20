@@ -11,3 +11,20 @@
 	margin-bottom: 15px;
 	padding: 20px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background: image_url('hypnotize.png');
+	font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+
+}
+
+.navbar {
+	background: image_url('escheresque_ste.png');
+	box-shadow: 1px 1px 3px grey;
+}
+
