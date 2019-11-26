@@ -35,3 +35,29 @@ body {
 	font-family: 'fira_sansbold';
 	font-size: 26px;
 }
+
+.pagination {
+	display: flex;
+ 	padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+  justify-content: center;
+}
+.page-link {
+	position: relative;
+	display: block;
+	padding: 0.5rem 0.75rem;
+	margin-left: -1px;
+	line-height: 1.25;
+	color: #41bad8;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+.page-item.active .page-link {
+	z-index: 2;
+  color: #fff;
+  background-color: #41bad8;
+  border-color: #41bad8;
+} 
+
+
