@@ -9,5 +9,8 @@
 <% end %>
 
 <div class="col-10 offset-1">
-	<%= will_paginate @places, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
+	<% if @places.size > 0 %>
+    <%= will_paginate @places, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
+<% end %>
+
 </div> 
